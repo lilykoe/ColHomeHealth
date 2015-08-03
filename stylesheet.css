@@ -26,6 +26,7 @@ h4 {
 	text-decoration: none;
 	color: black;
 }
+
 #bodyi {
 	background-color: black;
 	width: 100%;
@@ -62,6 +63,10 @@ h4 {
 body {
 	margin: 0px;
 	background-color: #9DDDDC;
+	background-image: url("assets/header.jpg");
+	background-repeat: no-repeat;
+	background-size: 1500px auto;
+	background-position-y: -250px;
 }
 
 article,
@@ -88,6 +93,8 @@ a {
   color: black;
   text-decoration: none;
   font-style: inherit;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 
@@ -97,31 +104,37 @@ strong {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 3em;
   padding: 3em 0;
-  font-weight: 200;
+  font-weight: 100;
 }
 ul {
     list-style-type: none;
     overflow: hidden;
     width: 100%;
-    padding: 25px;
+    padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 li {
     display: inline;
-    padding: 25px;
-    
+    width: 20%;
+    padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 a:link, a:visited {
     display: inline;
     font-weight: 300;
-    font-size: 110%;
     text-align: center;
     text-decoration: none;
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
+
 #row12 {
    display: -webkit-flex;
    display: flex;
