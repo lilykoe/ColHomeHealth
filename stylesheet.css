@@ -57,8 +57,6 @@ h4 {
 #body {
 	background-color: #003250;
 	width: 100%;
-	
-	
 }
 body {
 	margin: 0px;
@@ -67,6 +65,11 @@ body {
 	background-repeat: no-repeat;
 	background-size: 1500px auto;
 	background-position-y: -250px;
+}
+
+#lists {
+	max-width: 636px;
+	height: 50px;
 }
 
 article,
@@ -85,7 +88,10 @@ summary {
   display: block;
 }
 
-
+ul #phoneli {
+	max-width: 636px;
+	height: 50px;
+}
 
 a {
   background-color: transparent;
@@ -93,8 +99,15 @@ a {
   color: black;
   text-decoration: none;
   font-style: inherit;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  min-width: 637px;
+}
+a {
+	max-width: 636px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: none;
 }
 
 
@@ -115,6 +128,7 @@ ul {
     padding-top: 25px;
 	padding-bottom: 25px;
 	margin-left: -45px;
+	min-width: 637px;
 }
 
 li {
