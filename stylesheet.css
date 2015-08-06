@@ -35,6 +35,8 @@ h4 {
 #footer a {
 	color: black;
 	padding:20px;
+	line-height: 30px;
+	min-width: 775px;
 }
 #bodyii {
 	margin-top: -20px;
@@ -86,6 +88,7 @@ nav,
 section,
 summary {
   display: block;
+  
 }
 
 
@@ -98,12 +101,6 @@ a {
   font-style: inherit;
   margin-top: 25px;
   margin-bottom: 25px;
-}
-a {
-	max-width: 636px;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	display: none;
 }
 
 
@@ -140,6 +137,7 @@ li {
     width: 20%;
     padding-top: 25px;
 	padding-bottom: 25px;
+	line-height: 40px;
 }
 
 a:link, a:visited {
@@ -154,6 +152,9 @@ a:link, a:visited {
     padding-bottom: 50px;
 }
 
+nav {
+	min-width: 500px;
+}
 #row12 {
    display: -webkit-flex;
    display: flex;
