@@ -91,7 +91,10 @@ summary {
   
 }
 
-
+#footer {
+	width: 150%;
+	margin-left: -25%;
+}
 
 a {
   background-color: transparent;
